@@ -1,0 +1,179 @@
+/* landing.css */
+.home-container {
+  font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+/* .hero {
+  background: url('../../assets/images/YOU-1.jpg') no-repeat center center / cover;
+  color: rgb(253, 251, 251);
+  padding: 100px 20px;
+  text-align: center;
+  background-color: black;
+  margin-top: 4px;
+} */
+
+.articles-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Style for individual articles */
+.article-item {
+  width: calc(33.333% - 20px);
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.article-item:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Styling for the image inside the article */
+.article-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.article-item img:hover {
+  transform: scale(1.05);
+}
+
+/* Styling for the content section */
+.article-content {
+  padding: 15px;
+}
+
+.article-content h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #222;
+  font-weight: bold;
+}
+
+.article-content p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Optional: Style the article item layout for smaller screens */
+@media (max-width: 768px) {
+  .article-item {
+    width: calc(50% - 20px);
+  }
+}
+
+/* Optional: Style for mobile screens */
+@media (max-width: 480px) {
+  .article-item {
+    width: 100%;
+  }
+}
+
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Latest News Section */
+.latest-news {
+  padding: 50px 20px;
+  background-color: #f8f9fa;
+}
+
+.latest-news h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.news-items-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.news-item {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+}
+
+.news-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.news-item h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.news-item p {
+  font-size: 1rem;
+  color: #555;
+  padding: 0 10px;
+}
+
+.news-item a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.news-item a:hover {
+  text-decoration: underline;
+}
+
+/* Call to Action Section */
+.cta {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #343a40;
+  color: white;
+}
+
+.cta h2 {
+  font-size: 2rem;
+}
+
+.cta-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.cta-btn:hover {
+  background-color: #218838;
+}

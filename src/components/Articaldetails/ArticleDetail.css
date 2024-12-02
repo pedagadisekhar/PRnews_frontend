@@ -1,0 +1,72 @@
+/* Container for the entire article page */
+.article-detail-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styles */
+  .article-detail-container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Image styling */
+  .article-detail-container img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Content area styling */
+  .article-detail-container p {
+    font-size: 1.6rem;
+    color: #080808;
+    line-height: 1.9;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+
+
+  /* Styling for images in the article */
+.article-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: styling for better spacing between images */
+.article-detail-container img {
+  margin-bottom: 15px;
+}
+
+  
+  /* Responsive styling for mobile devices */
+  @media (max-width: 768px) {
+    .article-detail-container {
+      padding: 15px;
+    }
+  
+    .article-detail-container h1 {
+      font-size: 2rem;
+    }
+  
+    .article-detail-container p {
+      font-size: 1rem;
+    }
+  }
+  
